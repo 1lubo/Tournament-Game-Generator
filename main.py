@@ -22,17 +22,20 @@ def get_num_games(num_teams):
     return num_games
 
 
-def get_team_name(team_num):
-    while True:
-        team_name = input(f"Enter the name for team #{team_num}: ")
-        if len(team_name.split()) > 2:
-            print("Team names may have at most 2 words, try again.")
-            continue
-        elif len(team_name) < 2:
-            print("Team names must have at least 2 characters, try again.")
-        else:
-            break
-    return team_name
+def get_team_names(num_teams):
+    teams = []
+    for idx in range(num_teams):
+        while True:
+            team_name = input(f"Enter the name for team #{idx + 1}: ")
+            if len(team_name.split()) > 2:
+                print("Team names may have at most 2 words, try again.")
+                continue
+            elif len(team_name) < 2:
+                print("Team names must have at least 2 characters, try again.")
+            else:
+                break
+        teams.append(team_name)
+    return teams
 
 
 def get_team_score(teams, games):
@@ -54,16 +57,12 @@ def get_team_score(teams, games):
 
 def main():
 
-    teams = []
     num_teams = get_num_teams()
-
-    for i in range(1, num_teams + 1):
-        name = get_team_name(i)
-        teams.append(name)
+    team_names = get_team_names(num_teams)
 
     num_games = get_num_games(num_teams)
-    scores = get_team_score(teams, num_games)
-    teams_and_scores = list(zip(teams, scores))
+    scores = get_team_score(team_names, num_games)
+    teams_and_scores = list(zip(team_names, scores))
     start_low = sorted(teams_and_scores, key=lambda x: x[1])
     start_high = sorted(teams_and_scores, key=lambda x: x[1], reverse=True)
 
