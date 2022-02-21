@@ -22,7 +22,7 @@ See below for the sample program execution. Your prompts and output should follo
 
 ## Sample Program Execution #1
 
-Enter the number of teams in the tournament: 1<br>
+***Enter the number of teams in the tournament: 1<br>
 The minimum number of teams is 2, try again.<br>
 Enter the number of teams in the tournament: 4<br>
 Enter the name for team #1: Python<br>
@@ -48,31 +48,31 @@ Home: Ruby VS Away: Python<br>
 
 ## Sample Program Execution #2
 
-Enter the number of teams in the tournament: 6
-Enter the name for team #1: AA
-Enter the name for team #2: BB
-Enter the name for team #3: CC
-Enter the name for team #4: DD
-Enter the name for team #5: EE
-Enter the name for team #6: FF
-Enter the number of games played by each team: 2
-Invalid number of games. Each team plays each other at least once in the regular season, try again.
-Enter the number of games played by each team: 6
-Enter the number of wins Team AA had: 1 
-Enter the number of wins Team BB had: 4 
-Enter the number of wins Team CC had: 3 
-Enter the number of wins Team DD had: 4 
-Enter the number of wins Team EE had: 2 
-Enter the number of wins Team FF had: 7 
-The maximum number of wins is 6, try again.
-Enter the number of wins Team FF had: 5 
-Generating the games to be played in the first round of the tournament...
-Home: AA VS Away: FF
-Home: EE VS Away: BB
-Home: CC VS Away: DD
+***Enter the number of teams in the tournament: 6<br>
+Enter the name for team #1: AA<br>
+Enter the name for team #2: BB<br>
+Enter the name for team #3: CC<br>
+Enter the name for team #4: DD<br>
+Enter the name for team #5: EE<br>
+Enter the name for team #6: FF<br>
+Enter the number of games played by each team: 2<br>
+Invalid number of games. Each team plays each other at least once in the regular season, try again.<br>
+Enter the number of games played by each team: 6<br>
+Enter the number of wins Team AA had: 1<br>
+Enter the number of wins Team BB had: 4<br> 
+Enter the number of wins Team CC had: 3<br>
+Enter the number of wins Team DD had: 4<br> 
+Enter the number of wins Team EE had: 2<br> 
+Enter the number of wins Team FF had: 7<br> 
+The maximum number of wins is 6, try again.<br>
+Enter the number of wins Team FF had: 5<br> 
+Generating the games to be played in the first round of the tournament...<br>
+Home: AA VS Away: FF<br>
+Home: EE VS Away: BB<br>
+Home: CC VS Away: DD<br>
 
 The games generated from this example could also be the following:
 
-Home: AA VS Away: FF
-Home: EE VS Away: DD
-Home: CC VS Away: BB
+***Home: AA VS Away: FF<br>
+Home: EE VS Away: DD<br>
+Home: CC VS Away: BB<br>
