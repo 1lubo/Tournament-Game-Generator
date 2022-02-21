@@ -22,29 +22,29 @@ See below for the sample program execution. Your prompts and output should follo
 
 ## Sample Program Execution #1
 
-Enter the number of teams in the tournament: 1
-The minimum number of teams is 2, try again.
-Enter the number of teams in the tournament: 4
-Enter the name for team #1: Python
-Enter the name for team #2: Ruby
-Enter the name for team #3: JavaScript
-Enter the name for team #4: C
-Team names must have at least 2 characters, try again.
-Enter the name for team #4: C Is Great
-Team names may have at most 2 words, try again.
-Enter the name for Team #4: C#
-Enter the number of games played by each team: 2
-Invalid number of games. Each team plays each other at least once in the regular season, try again.
-Enter the number of games played by each team: 3
-Enter the number of wins Team Python had: 2 
-Enter the number of wins Team Ruby had: 1 
-Enter the number of wins Team JavaScript had: 0 
-Enter the number of wins Team C# had: -2
-The minimum number of wins is 0, try again.
-Enter the number of wins Team C# had: 3
-Generating the games to be played in the first round of the tournament...
-Home: JavaScript VS Away: C#
-Home: Ruby VS Away: Python
+Enter the number of teams in the tournament: 1<br>
+The minimum number of teams is 2, try again.<br>
+Enter the number of teams in the tournament: 4<br>
+Enter the name for team #1: Python<br>
+Enter the name for team #2: Ruby<br>
+Enter the name for team #3: JavaScript<br>
+Enter the name for team #4: C<br>
+Team names must have at least 2 characters, try again.<br>
+Enter the name for team #4: C Is Great<br>
+Team names may have at most 2 words, try again.<br>
+Enter the name for Team #4: C#<br>
+Enter the number of games played by each team: 2<br>
+Invalid number of games. Each team plays each other at least once in the regular season, try again.<br>
+Enter the number of games played by each team: 3<br>
+Enter the number of wins Team Python had: 2<br>
+Enter the number of wins Team Ruby had: 1<br> 
+Enter the number of wins Team JavaScript had: 0<br> 
+Enter the number of wins Team C# had: -2<br>
+The minimum number of wins is 0, try again.<br>
+Enter the number of wins Team C# had: 3<br>
+Generating the games to be played in the first round of the tournament...<br>
+Home: JavaScript VS Away: C#<br>
+Home: Ruby VS Away: Python<br>
 
 ## Sample Program Execution #2
 
