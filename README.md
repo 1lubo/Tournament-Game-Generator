@@ -44,7 +44,7 @@ The minimum number of wins is 0, try again.<br>
 Enter the number of wins Team C# had: 3<br>
 Generating the games to be played in the first round of the tournament...<br>
 Home: JavaScript VS Away: C#<br>
-Home: Ruby VS Away: Python<br>
+Home: Ruby VS Away: Python***<br>
 
 ## Sample Program Execution #2
 
@@ -69,10 +69,10 @@ Enter the number of wins Team FF had: 5<br>
 Generating the games to be played in the first round of the tournament...<br>
 Home: AA VS Away: FF<br>
 Home: EE VS Away: BB<br>
-Home: CC VS Away: DD<br>
+Home: CC VS Away: DD***<br>
 
 The games generated from this example could also be the following:
 
 ***Home: AA VS Away: FF<br>
 Home: EE VS Away: DD<br>
-Home: CC VS Away: BB<br>
+Home: CC VS Away: BB***<br>
