@@ -22,7 +22,7 @@ See below for the sample program execution. Your prompts and output should follo
 
 ## Sample Program Execution #1
 
-***Enter the number of teams in the tournament: 1
+Enter the number of teams in the tournament: 1
 The minimum number of teams is 2, try again.
 Enter the number of teams in the tournament: 4
 Enter the name for team #1: Python
@@ -44,13 +44,12 @@ The minimum number of wins is 0, try again.
 Enter the number of wins Team C# had: 3
 Generating the games to be played in the first round of the tournament...
 Home: JavaScript VS Away: C#
-Home: Ruby VS Away: Python***
+Home: Ruby VS Away: Python
 
 ## Sample Program Execution #2
 
-***Enter the number of teams in the tournament: 6
+Enter the number of teams in the tournament: 6
 Enter the name for team #1: AA
-
 Enter the name for team #2: BB
 Enter the name for team #3: CC
 Enter the name for team #4: DD
@@ -70,10 +69,10 @@ Enter the number of wins Team FF had: 5
 Generating the games to be played in the first round of the tournament...
 Home: AA VS Away: FF
 Home: EE VS Away: BB
-Home: CC VS Away: DD***
+Home: CC VS Away: DD
 
 The games generated from this example could also be the following:
 
-***Home: AA VS Away: FF
+Home: AA VS Away: FF
 Home: EE VS Away: DD
-Home: CC VS Away: BB***
+Home: CC VS Away: BB
