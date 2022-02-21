@@ -50,6 +50,7 @@ Home: Ruby VS Away: Python***
 
 ***Enter the number of teams in the tournament: 6
 Enter the name for team #1: AA
+
 Enter the name for team #2: BB
 Enter the name for team #3: CC
 Enter the name for team #4: DD
